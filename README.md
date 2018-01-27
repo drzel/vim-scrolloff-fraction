@@ -31,7 +31,6 @@ an absolute scrolloff value for certain `filetypes`:
 ```vim
 let g:scrolloff_absolute_filetypes = ['qf']
 let g:scrolloff_absolute_value = 0
-end
 ```
 
 See `:help 'scrolloff'` for more information.
