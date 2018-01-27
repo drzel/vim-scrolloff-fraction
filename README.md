@@ -26,4 +26,13 @@ You can change it with:
 let g:scroll_off_fraction = 0.25
 ```
 
+You can set an absolute scrolloff value for certain filetypes:
+
+```vim
+" Default values
+let g:scroll_off_absolute_filetypes = ['qf']
+let g:scroll_off_absolute_value = 0
+end
+```
+
 See `:help 'scrolloff'` for more information.
